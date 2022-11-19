@@ -8,7 +8,7 @@ import sys
 class Main(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('circles.ui', self)
+        uic.loadUi('UI.ui', self)
         self.initUi()
         self.tool = 0
     
